@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1090px" height="620px" viewBox="0 0 1090 620" preserveAspectRatio="xMidYMid meet">
+	<rect id="svgEditorBackground" x="0" y="0" width="1090" height="620" style="fill: none; stroke: none;" />
+	<defs id="svgEditorDefs">
+		<polygon id="svgEditorShapeDefs" style="fill:rosybrown;stroke:black;vector-effect:non-scaling-stroke;stroke-width:1px;" />
+	</defs>
+	<polygon points="52,32 77,21 77,60 52,71" style="fill:#0099cc;" />
+	<polygon points="52,77 77,66 77,105 52,116" style="fill:#0099cc;" />
+	<polygon points="22,76 47,66 47,116 22,105" style="fill:#006699;" />
+
+	<text style="fill:black;font-family:Arial;font-size:15px;fill:#006699" x="25" y="140" id="e5_texte">
+		<tspan x="25" style="" textLength="50">
+			DSSA
+		</tspan>
+	</text>
+	<text style="fill:black;font-family:Arial;font-size:15px;fill:#cc3333" x="25" y="140" id="e5_texte">
+		<tspan x="25" dy="1.25em" textLength="50">
+			MAX
+		</tspan>
+	</text>
+</svg>
