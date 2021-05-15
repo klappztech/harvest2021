@@ -72,23 +72,23 @@ $(document).ready(function () {
     loop: true,
     margin: 30,
     autoplayHoverPause: true,
-    smartSpeed:650,         
-    autoplay:true, 
+    smartSpeed: 650,
+    autoplay: true,
     responsive: {
-        0: {
-            items: 1
-        },
-        480: {
-            items: 2,
-        },
-        768: {
-            items: 4,
-        },
-        768: {
-            items: 5,
-        }
+      0: {
+        items: 1
+      },
+      480: {
+        items: 2,
+      },
+      768: {
+        items: 4,
+      },
+      768: {
+        items: 5,
+      }
     }
-});
+  });
 
 
 
@@ -405,29 +405,30 @@ $(document).ready(function () {
 });
 
 /* for logo change while scrolling  */
-$(function() 
-{ 
-  var lrg_logo = $(".lrg-logo"); 
-  var sml_logo = $(".sml-logo"); 
+$(function () {
+  var lrg_logo = $(".lrg-logo");
+  var sml_logo = $(".sml-logo");
 
-  $(window).scroll(function() {
-  var scroll = $(window).scrollTop();
-  var width = $(window).width();
+  $(window).scroll(function () {
+    return;
+    var scroll = $(window).scrollTop();
+    var width = $(window).width();
 
-  
-      if (scroll < 10 && width > 991) {
-        lrg_logo.slideDown("fast");
-        sml_logo.css('visibility', 'hidden');
-      } else {
-        lrg_logo.slideUp("fast", "swing", function() {sml_logo.css('visibility', 'visible');
+
+    if (scroll < 10 && width > 991) {
+      lrg_logo.slideDown("fast");
+      sml_logo.css('visibility', 'hidden');
+    } else {
+      lrg_logo.slideUp("fast", "swing", function () {
+        sml_logo.css('visibility', 'visible');
       });
 
-      }
-  
-  });
-
-  
-
-
+    }
 
   });
+
+
+
+
+
+});

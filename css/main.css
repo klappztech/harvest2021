@@ -1227,7 +1227,7 @@ td, th {
 }
 
   .home-banner-area .overlay {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.1) 31%,#0f7077 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, #00000033 50%);
     z-index: 1;
   }
 
@@ -1260,7 +1260,7 @@ td, th {
 
 @media (max-width: 767px) {
   .home-banner-area .banner-content {
-    margin-top: 35%;
+    margin-top: 40%;
     text-align: center;
     flex: 0 0 100%;
     max-width: 100%;
@@ -4291,7 +4291,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sml-logo {
-  visibility: hidden;
+  /* visibility: hidden; */
   width: 280px;
   height: 60px;
   text-align: center;
