@@ -370,6 +370,22 @@
         </div>
       </div>
   </footer>
+
+  <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+          <img width="100%" src="app/online_test/website/ads/startup.jpg" />
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
   <!-- End footer Area -->
   <script src="js/vendor/jquery-2.2.4.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
@@ -392,6 +408,12 @@
 
   <script>
     $(document).ready(function () {
+
+
+      setTimeout(function () {
+        $("#imgModal").modal();
+      }, 1500);
+
 
       $("#contactForm").submit(function (e) {
         e.preventDefault();
